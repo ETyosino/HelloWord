@@ -17,6 +17,7 @@ public class Group : MonoBehaviour
         PlayerName.text = _player.PlayerName;
         KillNum.text = _player.PlayerKillNum.ToString();
         HighestScore.text = _player.PlayerHighestScore.ToString();
+        Debug.Log(111);
     }
 
     public void MouseEnter()
